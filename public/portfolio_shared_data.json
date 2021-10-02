@@ -2,21 +2,21 @@
   "basic_info": {
     "name": "Jeff Inman",
     "titles": [
-      "Software Developer"
+      "Software Developer - Embrace The Process"
     ],
     "social": [
       {
         "name": "github",
-        "url": "https://github.com",
+        "url": "https://github.com/jinman36",
         "class": "fab fa-github"
       },
       {
-        "name": "instagram",
-        "url": "https://www.instagram.com",
-        "class": "fab fa-instagram"
+        "name": "LinkedIn",
+        "url": "www.linkedin.com/in/jefferyinman",
+        "class": "fab fa-linkedin"
       }
     ],
-    "image": "myProfile.jpg"
+    "image": "jeffInman.jpg"
   },
   "skills": {
     "icons": [
