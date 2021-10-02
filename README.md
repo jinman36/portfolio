@@ -26,3 +26,13 @@
 - **Finish time:** 3:20
   
 - **Actual time needed to complete:** 20 min
+
+3. **Number and name of feature:** Projects Section
+  
+- **Estimate of time needed to complete:** 1 hr
+  
+- **Start time:** 3:20
+  
+- **Finish time:**
+  
+- **Actual time needed to complete:**

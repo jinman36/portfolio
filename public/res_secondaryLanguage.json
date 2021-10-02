@@ -1,115 +1,144 @@
 {
   "basic_info": {
-    "description_header": "Cześć",
-    "description": "👋 Jestem Jeff Inman. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Code Fellows. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+    "description_header": "Bahasa Indonesian",
+    "description": "Nama Saya Jeff Inman. Saya selalu bersemangat bekerja dengan tim yang beragam untuk mencapai tujuan yang sulit. Saya berusaha untuk perbaikan terus-menerus dan membangun sesuatu, itulah yang membawa saya ke pengkodean di mana saya menemukan selalu ada sesuatu yang baru untuk dipelajari dan satu-satunya batasan untuk cara baru untuk berinovasi dan berkreasi, benar-benar imajinasi Anda sendiri⭐",
     "section_name": {
-      "about": "O mnie",
-      "projects": "Projekty",
-      "skills": "Umiejętności",
-      "experience": "Doświadczenie"
+      "about": "Tantang Saya",
+      "projects": "Proyek",
+      "skills": "keterampilan",
+      "experience": "pengalaman"
     }
   },
   "projects": [
     {
-      "title": "Animal Shelter",
+      "title": "Proyek Fubar",
       "startDate": "2020",
-      "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+      "description": "Tim mengembangkan aplikasi untuk memungkinkan pengguna memasukkan beberapa pertimbangan dan menerima rekomendasi restoran yang disesuaikan berdasarkan masukan mereka",
       "images": [
-        "images/portfolio/animal-shelter/p1.jpg",
-        "images/portfolio/animal-shelter/p2.jpg"
+        "images/portfolio/project-fubar/seattle-skyline.png",
+        "images/portfolio/project-fubar/food.jpg"
       ],
-      "url": "",
+      "url": "https://jinman36.github.io/projectFubar/",
       "technologies": [
         {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
+          "name": "HTML 5",
+          "class": "devicon-html5-plain"
         },
         {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "name": "CSS 3",
+          "class": "devicon-css3-plain"
+        }
+      ]
+    },
+
+    {
+      "title": "Photography",
+      "startDate": "2018",
+      "description": "Personal project for study subject. This was a guided walk through to create a quiz that I used to help study and get more familiar with React and Javascript - tutorial credits in README",
+      "images": [
+        "images/portfolio/scrum-quiz/start-page.JPG",
+        "images/portfolio/scrum-quiz/question.JPG"
+      ],
+      "url": "https://jinman36.github.io/Scrum-Quiz-Notes/",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain"
         }
       ]
     },
     {
-      "title": "Photography",
-      "startDate": "2018",
-      "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
+      "title": "3D penampil objek",
+      "startDate": "2015",
+      "description": "Tempat penampung",
       "images": [
-        "images/portfolio/photography/p1.jpg",
-        "images/portfolio/photography/p2.jpg"
+        "images/portfolio/adventure/p1.jpg",
+        "images/portfolio/adventure/p2.jpg"
       ],
-      "url": "https://github.com",
+      "url": "https://jinman36.github.io/",
       "technologies": [
         {
           "class": "devicon-react-original",
           "name": "React"
         },
         {
-          "class": "devicon-javascript-plain",
-          "name": "JavaScript"
-        }
-      ]
-    },
-    {
-      "title": "3D Object Viewer",
-      "startDate": "2015",
-      "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
-      "images": [
-        "images/portfolio/adventure/p1.jpg",
-        "images/portfolio/adventure/p2.jpg"
-      ],
-      "url": "https://github.com",
-      "technologies": [
-        {
-          "class": "devicon-angularjs-plain",
-          "name": "Angular"
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain"
         },
         {
-          "class": "devicon-typescript-plain",
-          "name": "TypeScript"
-        },
-        {
-          "class": "devicon-csharp-plain",
-          "name": "C#"
+          "name": "CSS 3",
+          "class": "devicon-css3-plain"
         }
       ]
     }
   ],
   "experience": [
     {
-      "company": "DefOpenSource",
-      "title": "Front-End Developer",
-      "years": "10.2019 - obecnie",
+      "company": "Code Fellows 301",
+      "title": "Intermediate Software Development",
+      "years": "2021",
       "mainTech": [
-        "Angular 8/9/10"
+        "React"
       ],
       "technologies": [
-        "REST API",
-        "RxJS",
+        "React",
         "JavaScript",
         "Bootstrap",
-        "MDBootstrap",
-        "EF Core",
-        "Angular Material"
+        "HTML",
+        "CSS"
       ]
     },
     {
-      "company": "Serros Solutions",
-      "title": "Stażystka",
-      "years": "01.2018 - 09.2019",
+      "company": "Vets in tech",
+      "title": "Python Learning Fundamental ",
+      "years": "2021",
       "mainTech": [
-        "Angular 7/8"
+        "Python",
+        "Excel",
+        "REST API"
       ],
       "technologies": [
-        "REST API",
-        "RxJS",
-        "Swagger",
+        "Python",
+        "Excel",
+        "REST API"
+      ]
+    },
+    {
+      "company": "Code Fellows 201",
+      "title": "Foundations of Software Development",
+      "years": "2021",
+      "mainTech": [
+        "JavaScript"
+      ],
+      "technologies": [
         "JavaScript",
-        "DHTMLX Gantt"
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "company": "Code Fellows 101/102",
+      "title": "Beginning Software Development",
+      "years": "2020",
+      "mainTech": [
+        "JavaScript"
+      ],
+      "technologies": [
+        "JavaScript",
+        "HTML",
+        "CSS"
       ]
     }
   ]
