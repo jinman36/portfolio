@@ -1,6 +1,7 @@
 @import '/src/scss/themes/theme-dark.scss';
 @import '/src/scss/themes/theme-light.scss';
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 
 html {
 	font-size: 62.5%;
@@ -38,7 +39,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-color: #2D83A6;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -48,7 +49,7 @@ header {
 }
 
 header .nav {
-	font: 18px/24px 'opensans-bold', sans-serif;
+	font: 18px/24px 'Alfa Slab One', cursive;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 }
@@ -66,7 +67,7 @@ header .nav {
 
 .project-date {
 	font-size: 16px;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: 'Alfa Slab One', cursive;
 	padding: 8px 15px 2px 15px;
 	position: relative;
 	z-index: -500;
@@ -77,7 +78,7 @@ header .nav {
 }
 
 .skills-tile {
-	background-color: transparentize(#F8F5F4, 0.95);
+	background-color: transparentize(#252525, 0.95);
 	padding: 10px 10px 5px 10px;
 	width: 100px;
 	margin: 5px 0 5px 0;
@@ -86,7 +87,7 @@ header .nav {
 
 .language {
 	font-size: 25px;
-	background-color: #e9d5a1;
+	background-color: #6b98a0;
 	padding-bottom: 10px;
 	padding-top: 80px;
 }
@@ -94,19 +95,20 @@ header .nav {
 header h1 {
 	font-size: 400%;
 	text-align: center;
-	font-weight: 600 !important;
+	// font-weight: 600 !important;
 	color: #353239;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-family: 'Alfa Slab One', cursive;
 	margin: 0 auto 18px auto;
 	width: 100%;
+	letter-spacing: 3px;
 }
 
 .slider-image {
-	border: 5px solid #D7CAAA;
+	border: 5px solid #6b98a0;
 }
 
 .slider-tab {
-	background-color: #D7CAAA;
+	background-color: #6b98a0;
 	height: 25px;
 }
 
@@ -129,7 +131,7 @@ header h1 {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: black;
+	color: rgb(202, 187, 187);
 	text-align: center;
 }
 
@@ -146,8 +148,8 @@ header h1 {
 	text-align: center;
 	text-decoration: none;
 	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	-moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
-	box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 4px 6px rgba(207, 207, 207, 0.3);
+	box-shadow: 0 4px 6px rgb(252, 249, 249);
 	-webkit-transition: all .20s linear;
 	-moz-transition: all .20s linear;
 	transition: all .20s linear;
@@ -156,7 +158,7 @@ header h1 {
 }
 
 .foto div:after {
-	color: #333;
+	color: rgb(58, 102, 119);
 	font-size: 25px;
 	content: attr(title);
 	position: relative;
@@ -188,7 +190,7 @@ header h1 {
 }
 
 .polaroid span {
-	background: #ffffff;
+	background: #c2c1c1;
 	display: inline-block;
 	margin: 55px 75px 30px;
 	padding: 15px 15px 30px;
@@ -205,7 +207,7 @@ header h1 {
 }
 
 .link-href {
-	color: black;
+	color: rgb(27, 132, 158);
 }
 
 .wave {
@@ -218,7 +220,7 @@ header h1 {
 
 #preview {
 	width: 500px;
-	background-color: #ebeaf5;
+	background-color: #2D83A6;
 	padding: 15px;
 	position: relative;
 	margin-bottom: 15%;
@@ -231,7 +233,7 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background: #2D83A6;
 }
 
 .experience-icon {
@@ -245,7 +247,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #AE944F !important;
+	background-color: #111110 !important;
 	color: white;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -256,7 +258,7 @@ header h1 {
 	text-align: left !important;
 	padding: 5px 8px 5px 8px !important;
 	vertical-align: baseline;
-	background-color: #f9f5e9 !important;
+	background-color: #3BA7BF !important;
 	color: black;
 	font-weight: lighter !important;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -276,7 +278,7 @@ header h1 {
 }
 
 .modal-inside .modal-content {
-	background: white;
+	background: rgb(10, 10, 10);
 }
 
 .bars {
@@ -287,7 +289,7 @@ header h1 {
 }
 
 .bars .skills {
-	margin-top: 36px;
+	margin-top: 12px;
 	list-style: none;
 }
 
@@ -353,7 +355,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: #053A40;
 	padding-bottom: 5%;
 }
 
@@ -388,12 +390,14 @@ header h1 {
 	}
 }
 
-#skills {
-	background: #1F1F1F;
-	min-height: 200px;
+.skills {
+	background-image: url(https://mediacloud.kiplinger.com/image/private/s--X-WVjvBW--/f_auto,t_content-image-full-desktop@1/v1631295280/Investing/Water-funds-2021.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	min-height: 50px;
 	width: 100%;
 	overflow: hidden;
-	padding-bottom: 10%;
+	padding-bottom: 4%;
 }
 
 .section-title {
@@ -402,19 +406,19 @@ header h1 {
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color: #fff;
+	color: rgb(7, 7, 7);
 	text-align: center;
 }
 
 .skill-icon {
 	font-size: 180%;
-	color: white;
+	color: rgb(7, 7, 7);
 	text-align: center;
 	position: relative;
 }
 
 footer {
-	background: #1F1F1F;
+	background: #053A40;
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;
