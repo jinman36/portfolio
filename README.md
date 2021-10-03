@@ -36,3 +36,23 @@
 - **Finish time:**
   
 - **Actual time needed to complete:**
+
+4. **Number and name of feature:** Skills and Experience Section
+  
+- **Estimate of time needed to complete:** 1 hr
+  
+- **Start time:** 3:20
+  
+- **Finish time:** 4:35
+  
+- **Actual time needed to complete:** 3 and 4 : 1hr 10 min (with translation)
+
+5. **Number and name of feature:** Projects Section
+  
+- **Estimate of time needed to complete:** 1 hr
+  
+- **Start time:** 3:20
+  
+- **Finish time:**
+  
+- **Actual time needed to complete:**
