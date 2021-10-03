@@ -53,6 +53,6 @@
   
 - **Start time:** 3:20
   
-- **Finish time:**
+- **Finish time:** 6:30
   
-- **Actual time needed to complete:**
+- **Actual time needed to complete:**  Hard to tell since I kept leaving and coming back :)
